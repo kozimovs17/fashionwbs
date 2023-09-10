@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Playfair:wght@300&family=Poppins&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&family=Rufina&display=swap');
 
 * {
     margin: 0px;
@@ -69,5 +70,80 @@ header {
             }
         }
 
+    }
+
+    .item1 {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+
+        .info1 {
+            width: 649px;
+            height: 632px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+
+            h1 {
+                width: 649px;
+                color: #224F34;
+                font-family: 'Rufina';
+                font-size: 86px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p {
+                width: 565px;
+                color: #267D49;
+                font-family: ' Poppins';
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%;
+            }
+
+            button {
+                width: 258px;
+                height: 74px;
+                flex-shrink: 0;
+                border-radius: 3px;
+                background: #224F34;
+                box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.30);
+                border: none;
+                color: #FFF;
+                font-family: 'Poppins';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+
+        .mask {
+            width: 570px;
+            height: 717px;
+            flex-shrink: 0;
+            // box-shadow: 6px 4px 26px 0px rgba(0, 0, 0, 0.12) inset;
+            position: relative;
+            .rs2{
+                position: absolute;
+                z-index: 1;
+                bottom: 83px;
+                left: 24px;
+            }
+            .rs3{
+                position: absolute;
+                z-index: 1;
+                top: 155px;
+                right: 12px;
+            }
+        }
     }
 }
