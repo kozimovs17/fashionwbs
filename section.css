@@ -106,7 +106,7 @@ section .frame2 .sell1-info .item3 .frame1 img {
   flex-shrink: 0;
   background-color: transparent;
 }
-section button {
+section .sell-btn {
   display: flex;
   padding: 16px 55px;
   align-items: center;
@@ -124,7 +124,7 @@ section button {
   top: 1119px;
   left: 752px;
 }
-section button img {
+section .sell-btn img {
   width: 23px;
   stroke-width: 2px;
   stroke: #224F34;
@@ -245,4 +245,98 @@ section .products .products-sell .frame3 .products-info .item4 .frame4 p {
 }
 section .products .products-sell .frame3 .products-info .item4 .frame4 img {
   background-color: transparent;
+}
+section .offer {
+  width: 1377px;
+  height: 596px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #C2EFD4;
+  margin-top: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+section .offer .rasm3 {
+  position: absolute;
+  bottom: 41px;
+  left: 41px;
+}
+section .offer .offer-info {
+  width: 589px;
+  height: 447px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section .offer .offer-info h1 {
+  color: #224F34;
+  font-family: " Roboto Slab";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .offer .offer-info p {
+  color: #224F34;
+  font-family: "Poppins";
+  font-size: 22px;
+  width: 589px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 167%;
+}
+section .offer .offer-info .offer-item {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+section .offer .offer-info .offer-item .data {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+section .offer .offer-info .offer-item .data h3 {
+  color: #224F34;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section .offer .offer-info .offer-item .data span {
+  color: #224F34;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section .offer .offer-info .offer-btn {
+  width: 235px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #224F34;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
 }/*# sourceMappingURL=section.css.map */
