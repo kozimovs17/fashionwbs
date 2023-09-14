@@ -156,4 +156,50 @@ footer .footer-frame2 li a {
   line-height: normal;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+@media (max-width: 676px) {
+  footer {
+    width: 576px;
+    height: auto;
+  }
+  footer .footer-frame {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 100px;
+    padding-top: 60px;
+  }
+  footer .footer-frame2 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin-top: 154px;
+  }
+  footer .footer-frame2 img {
+    width: 487px;
+  }
+  footer .footer-frame2 ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  footer .footer-frame2 li {
+    list-style: none;
+  }
+  footer .footer-frame2 li a {
+    color: #FFF;
+    font-family: " Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

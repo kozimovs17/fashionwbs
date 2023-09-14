@@ -176,3 +176,57 @@ footer {
 
     }
 }
+
+@media(max-width: 676px){
+      // footer
+      footer {
+        width: 576px;
+        height: auto;
+
+        .footer-frame {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 20px;
+            gap: 100px;
+            padding-top: 60px;
+        }
+
+        .footer-frame2 {
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-left: 20px;
+            margin-top: 154px;
+            img{
+                width: 487px;
+            }
+
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 25px;
+            }
+
+            li {
+                list-style: none;
+
+                a {
+                    color: #FFF;
+                    font-family: ' Poppins';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+
+}
