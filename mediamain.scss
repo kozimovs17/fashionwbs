@@ -81,16 +81,13 @@
     // header-finish
 
     section {
-        width: 1728px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 348px;
-        // border: 1px solid blue;
-        position: relative;
+        width: 676px;
+        padding-top: 248px;
+        border: 1px solid red;
+
     
         .info2 {
-            width: 750px;
+            width: 250px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -98,137 +95,51 @@
             margin-bottom: 80px;
             // border: 1px solid red;
             position: absolute;
-            top: 114px;
-            right: 485px;
+            top: 65px;
+            right: 255px;
     
             h1 {
-                color: #224F34;
-                font-family: 'Roboto Slab';
-                font-size: 64px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
+                font-size: 44px;
             }
     
             p {
-                color: #224F34;
-                font-family: 'Poppins';
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
+                font-size: 15px;
             }
         }
     
         .sell1 {
-            width: 1377px;
+            width: 600px;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
     
             // border: 1px solid red;
     
-            img {
-                border-radius: 3px;
-                background: #CADCD0;
-                width: 430px;
-                height: 566px;
-                flex-shrink: 0;
-            }
-        }
-    
-        .frame2 {
-            display: flex;
-            flex-direction: column;
-            gap: 51px;
-    
-            .sell1-info {
-                width: 430px;
-                height: 74px;
-                flex-shrink: 0;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-    
-                h1 {
-                    color: #373737;
-                    text-align: center;
-                    font-family: ' Poppins';
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: normal;
-                }
-    
-                .item3 {
-                    display: flex;
-                    align-items: center;
-                    gap: 39px;
-    
-                    p {
-                        color: #454545;
-                        font-family: ' Poppins';
-                        font-size: 22px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: normal;
-                    }
-    
-                    .frame1 {
-                        width: 67px;
-                        height: 33px;
-                        flex-shrink: 0;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-    
-                        p {
-                            color: #454545;
-                            font-family: 'Poppins';
-                            font-size: 22px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal;
-                        }
-    
-                        img {
-                            width: 24px;
-                            height: 24px;
-                            flex-shrink: 0;
-                            background-color: transparent;
-                        }
-                    }
-    
-                }
-    
-            }
         }
     
         .sell-btn {
             display: flex;
-            padding: 16px 55px;
-            // flex-direction: column;
+            padding: 10px 55px;
             align-items: center;
             gap: 18px;
             border-radius: 3px;
             border: 2px solid #224F34;
             color: #224F34;
             font-family: 'Poppins';
-            font-size: 22px;
+            font-size: 15px;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
             background-color: transparent;
             position: absolute;
-            top: 1119px;
-            left: 752px;
-    
-            img {
-                width: 23px;
-                stroke-width: 2px;
-                stroke: #224F34;
-            }
+            top: 2519px;
+            left: 235px;
         }
+        // best-sell-finish
     }
+
+
 }
 
 

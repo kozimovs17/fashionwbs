@@ -62,130 +62,50 @@
     margin-top: 50px;
   }
   section {
-    width: 1728px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 348px;
-    position: relative;
+    width: 676px;
+    padding-top: 248px;
+    border: 1px solid red;
   }
   section .info2 {
-    width: 750px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 37px;
     margin-bottom: 80px;
     position: absolute;
-    top: 114px;
-    right: 485px;
+    top: 65px;
+    right: 255px;
   }
   section .info2 h1 {
-    color: #224F34;
-    font-family: "Roboto Slab";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-size: 44px;
   }
   section .info2 p {
-    color: #224F34;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-size: 15px;
   }
   section .sell1 {
-    width: 1377px;
-    display: flex;
-    justify-content: space-between;
-  }
-  section .sell1 img {
-    border-radius: 3px;
-    background: #CADCD0;
-    width: 430px;
-    height: 566px;
-    flex-shrink: 0;
-  }
-  section .frame2 {
-    display: flex;
-    flex-direction: column;
-    gap: 51px;
-  }
-  section .frame2 .sell1-info {
-    width: 430px;
-    height: 74px;
-    flex-shrink: 0;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  section .frame2 .sell1-info h1 {
-    color: #373737;
-    text-align: center;
-    font-family: " Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  section .frame2 .sell1-info .item3 {
-    display: flex;
-    align-items: center;
-    gap: 39px;
-  }
-  section .frame2 .sell1-info .item3 p {
-    color: #454545;
-    font-family: " Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  section .frame2 .sell1-info .item3 .frame1 {
-    width: 67px;
-    height: 33px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  section .frame2 .sell1-info .item3 .frame1 p {
-    color: #454545;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  section .frame2 .sell1-info .item3 .frame1 img {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    background-color: transparent;
+    gap: 50px;
   }
   section .sell-btn {
     display: flex;
-    padding: 16px 55px;
+    padding: 10px 55px;
     align-items: center;
     gap: 18px;
     border-radius: 3px;
     border: 2px solid #224F34;
     color: #224F34;
     font-family: "Poppins";
-    font-size: 22px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     background-color: transparent;
     position: absolute;
-    top: 1119px;
-    left: 752px;
-  }
-  section .sell-btn img {
-    width: 23px;
-    stroke-width: 2px;
-    stroke: #224F34;
+    top: 2519px;
+    left: 235px;
   }
 }/*# sourceMappingURL=mediamain.css.map */
