@@ -38,7 +38,7 @@ section .info2 p {
   line-height: normal;
 }
 section .sell1 {
-  width: 1555px;
+  width: 1377px;
   display: flex;
   justify-content: space-between;
 }
@@ -130,7 +130,7 @@ section .sell-btn img {
   stroke: #224F34;
 }
 section .products {
-  width: 90%;
+  width: 1377px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +179,7 @@ section .products .products-nav li a:hover::before {
   width: 100%;
 }
 section .products .products-sell {
-  width: 90%;
+  width: 100%;
   height: 1060px;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -339,4 +339,176 @@ section .offer .offer-info .offer-btn {
   line-height: normal;
   text-transform: uppercase;
   border: none;
+}
+section .designer {
+  width: 1377px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .designer h1 {
+  color: #224F34;
+  font-family: " Roboto Slab";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 218px;
+}
+section .designer P {
+  color: #224F34;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 51px;
+}
+section .designer .designer-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+section .designer .designer-item .designer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+section .designer .designer-item .designer-info img {
+  border-radius: 3px;
+  background: #D3E2D7;
+}
+section .designer .designer-item .designer-info .designer-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+section .designer .designer-item .designer-info .designer-frame h3 {
+  color: #373737;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section .designer .designer-item .designer-info .designer-frame span {
+  width: 420px;
+  color: #373737;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143%;
+}
+section .feedback {
+  width: 1377px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 249px;
+}
+section .feedback h1 {
+  color: #224F34;
+  font-family: "Roboto Slab";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+section .feedback .feedback-item {
+  width: 1377px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 109px;
+}
+section .feedback .feedback-item .feedback-info {
+  width: 434px;
+  height: 253px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #FFF;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 19px;
+}
+section .feedback .feedback-item .feedback-info p {
+  color: #224F34;
+  font-family: Arial " Rounded MT" Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .feedback .feedback-item .feedback-info h3 {
+  color: #224F34;
+  font-family: "Roboto" Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section .feedback .feedback-item .feedback-info span {
+  width: 390px;
+  color: #6F6F6F;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section .feedback .feedback-item .feedback-info2 {
+  width: 434px;
+  height: 253px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #C2EFD4;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-left: 19px;
+}
+section .feedback .feedback-item .feedback-info2 p {
+  color: #224F34;
+  font-family: Arial " Rounded MT" Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .feedback .feedback-item .feedback-info2 h3 {
+  color: #224F34;
+  font-family: "Roboto" Serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section .feedback .feedback-item .feedback-info2 span {
+  width: 390px;
+  color: #6F6F6F;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section .feedback .cursor {
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  margin-bottom: 193px;
 }/*# sourceMappingURL=section.css.map */
