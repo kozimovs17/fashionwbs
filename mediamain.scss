@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Playfair:wght@300&family=Poppins&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+@media(max-width: 676px){
+    header {
+        width: 676px;
+        height: auto;
+    
+        .nav {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            img{
+                width: 75px;
+                height: 20px;
+            }
+    
+            ul {
+                gap: 25px;
+    
+                a {
+                    font-size: 14px;
+
+                }
+            }
+    
+            .nav-sign {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+    
+                button {
+                    height: 25px;
+                    font-size: 14px;
+                }
+            }
+    
+        }
+    
+        .item1 {
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+    
+            .info1 {
+                width: 649px;
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+    
+    
+                h1 {
+                    width: 549px;
+                    font-size: 44px;
+                }
+    
+                p {
+                    width: 465px;
+                    font-size: 25px;
+                }
+    
+            }
+    
+            .mask {
+                width: 549px;
+                margin-top: 50px;
+    
+            }
+        }
+    }
+    // header-finish
+
+    section {
+        width: 1728px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 348px;
+        // border: 1px solid blue;
+        position: relative;
+    
+        .info2 {
+            width: 750px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 37px;
+            margin-bottom: 80px;
+            // border: 1px solid red;
+            position: absolute;
+            top: 114px;
+            right: 485px;
+    
+            h1 {
+                color: #224F34;
+                font-family: 'Roboto Slab';
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+    
+            p {
+                color: #224F34;
+                font-family: 'Poppins';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    
+        .sell1 {
+            width: 1377px;
+            display: flex;
+            justify-content: space-between;
+    
+            // border: 1px solid red;
+    
+            img {
+                border-radius: 3px;
+                background: #CADCD0;
+                width: 430px;
+                height: 566px;
+                flex-shrink: 0;
+            }
+        }
+    
+        .frame2 {
+            display: flex;
+            flex-direction: column;
+            gap: 51px;
+    
+            .sell1-info {
+                width: 430px;
+                height: 74px;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                h1 {
+                    color: #373737;
+                    text-align: center;
+                    font-family: ' Poppins';
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+    
+                .item3 {
+                    display: flex;
+                    align-items: center;
+                    gap: 39px;
+    
+                    p {
+                        color: #454545;
+                        font-family: ' Poppins';
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+    
+                    .frame1 {
+                        width: 67px;
+                        height: 33px;
+                        flex-shrink: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+    
+                        p {
+                            color: #454545;
+                            font-family: 'Poppins';
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+    
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            flex-shrink: 0;
+                            background-color: transparent;
+                        }
+                    }
+    
+                }
+    
+            }
+        }
+    
+        .sell-btn {
+            display: flex;
+            padding: 16px 55px;
+            // flex-direction: column;
+            align-items: center;
+            gap: 18px;
+            border-radius: 3px;
+            border: 2px solid #224F34;
+            color: #224F34;
+            font-family: 'Poppins';
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            background-color: transparent;
+            position: absolute;
+            top: 1119px;
+            left: 752px;
+    
+            img {
+                width: 23px;
+                stroke-width: 2px;
+                stroke: #224F34;
+            }
+        }
+    }
+}
+
+

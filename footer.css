@@ -105,6 +105,7 @@ footer .footer-frame .footer-item3 .footer-info2 {
 footer .footer-frame .footer-item3 .footer-info2 .email {
   width: 372px;
   height: 57px;
+  padding-left: 20px;
   flex-shrink: 0;
   border-radius: 3px;
   border: 2px solid #A3F3BE;
@@ -115,6 +116,12 @@ footer .footer-frame .footer-item3 .footer-info2 .email {
   font-weight: 400;
   line-height: normal;
   background-color: transparent;
+}
+footer .footer-frame .footer-item3 .footer-info2 .email::-moz-placeholder {
+  color: #fff;
+}
+footer .footer-frame .footer-item3 .footer-info2 .email::placeholder {
+  color: #fff;
 }
 footer .footer-frame .footer-item3 .footer-info2 .submit {
   width: 115px;

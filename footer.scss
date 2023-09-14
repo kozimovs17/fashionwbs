@@ -118,6 +118,7 @@ footer {
                 .email {
                     width: 372px;
                     height: 57px;
+                    padding-left: 20px;
                     flex-shrink: 0;
                     border-radius: 3px;
                     border: 2px solid #A3F3BE;
@@ -128,6 +129,9 @@ footer {
                     font-weight: 400;
                     line-height: normal;
                     background-color: transparent;
+                    &::placeholder {
+                        color: #fff;
+                    }
                 }
 
                 .submit {
