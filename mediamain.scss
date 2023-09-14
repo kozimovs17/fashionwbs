@@ -3,53 +3,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
-@media(max-width: 676px){
+@media(max-width: 676px) {
 
-    body{
+    body {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     header {
         width: 576px;
         height: auto;
-    
+
         .nav {
             width: 100%;
             padding-left: 20px;
             padding-right: 20px;
-            img{
+
+            img {
                 width: 75px;
                 height: 20px;
             }
-    
+
             ul {
                 gap: 15px;
-    
+
                 a {
                     font-size: 14px;
 
                 }
             }
-    
+
             .nav-sign {
                 display: flex;
                 align-items: center;
                 gap: 20px;
-                img{
+
+                img {
                     width: 25px;
                     height: 25px;
                 }
-    
+
                 button {
                     width: 100px;
                     height: 25px;
                     font-size: 14px;
                 }
             }
-    
+
         }
-    
+
         .item1 {
             width: 100%;
             flex-direction: column;
@@ -57,40 +60,42 @@
             margin-top: 60px;
             padding-left: 20px;
             padding-right: 20px;
-    
+
             .info1 {
                 width: 649px;
                 height: 400px;
                 display: flex;
                 flex-direction: column;
                 gap: 25px;
-    
-    
+
+
                 h1 {
                     width: 549px;
                     font-size: 44px;
                 }
-    
+
                 p {
                     width: 465px;
                     font-size: 25px;
                 }
-    
+
             }
-    
+
             .mask {
                 width: 500px;
                 margin-top: 50px;
+
                 .rs3 {
                     position: absolute;
                     z-index: 1;
                     top: 155px;
                     right: 0;
                 }
-    
+
             }
         }
     }
+
     // header-finish
 
     section {
@@ -98,7 +103,7 @@
         padding-top: 248px;
         border: 1px solid red;
 
-    
+
         .info2 {
             width: 250px;
             display: flex;
@@ -110,27 +115,27 @@
             position: absolute;
             top: 65px;
             right: 155px;
-    
+
             h1 {
                 font-size: 44px;
             }
-    
+
             p {
                 font-size: 15px;
             }
         }
-    
+
         .sell1 {
             width: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 50px;
-    
+
             // border: 1px solid red;
-    
+
         }
-    
+
         .sell-btn {
             display: flex;
             padding: 10px 55px;
@@ -149,85 +154,140 @@
             top: 2519px;
             left: 185px;
         }
+
         // best-sell-finish
 
-        
-    // products
-    .products {
-        width: 500px;
-        // height: 100px;
-        margin-top: 230px;
-        // border: 1px solid red;
 
-        h1 {
-            font-size: 44px;
-
-        }
-
-        .products-nav {
-            gap: 20px;
-            margin-top: 50px;
-
-            li {
-                list-style: none;
-
-                a {
-                    font-size: 15px;
-                }
-            }
-
-        }
-
-        .products-sell {
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 50px;
-            margin-top: 75px;
-        }
-
-    }
-
-    // products-finish
-
-    
-    // offer
-
-    .offer {
-        width: 576px;
-        height: auto;
-        margin-top: 195px;
-        display: flex;
-        flex-direction: column-reverse;
-
-        .rasm3 {
-            left: 31px;
-        }
-
-        .offer-info {
+        // products
+        .products {
             width: 500px;
-            height: auto;
-            gap: 30px;
+            // height: 100px;
+            margin-top: 230px;
+            // border: 1px solid red;
 
             h1 {
                 font-size: 44px;
+
             }
 
-            p {
-                font-size: 15px;
-                width: 500px;
+            .products-nav {
+                gap: 20px;
+                margin-top: 50px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        font-size: 15px;
+                    }
+                }
+
+            }
+
+            .products-sell {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+                margin-top: 75px;
             }
 
         }
+
+        // products-finish
+
+
+        // offer
+
+        .offer {
+            width: 576px;
+            height: auto;
+            margin-top: 195px;
+            display: flex;
+            flex-direction: column-reverse;
+
+            .rasm3 {
+                left: 31px;
+            }
+
+            .offer-info {
+                width: 500px;
+                height: auto;
+                gap: 30px;
+
+                h1 {
+                    font-size: 44px;
+                }
+
+                p {
+                    font-size: 15px;
+                    width: 500px;
+                }
+
+            }
+        }
+
+        // offer-finish
+
+        // designer
+
+        .designer {
+            width: 576px;
+
+            h1 {
+                font-size: 44px;
+                margin-top: 200px;
+            }
+
+            P {
+                font-size: 15px;
+                margin-top: 30px;
+                text-align: center;
+            }
+
+            .designer-item {
+                width: 500px;
+                flex-direction: column;
+                gap: 100px;
+            }
+        }
+
+        // designer-finish
+
+        // feedback
+
+    .feedback {
+        width: 576px;
+        margin-top: 200px;
+
+        h1 {
+            font-size: 44px;
+        }
+
+        .feedback-item {
+            width: 576px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 109px;
+        }
+        .cursor{
+            margin-top: 75px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 193px;
+        }
     }
 
-    // offer-finish
+    // feedback-finish
+    
 
     }
 
 
 }
-
-

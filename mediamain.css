@@ -168,4 +168,44 @@
     font-size: 15px;
     width: 500px;
   }
+  section .designer {
+    width: 576px;
+  }
+  section .designer h1 {
+    font-size: 44px;
+    margin-top: 200px;
+  }
+  section .designer P {
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  section .designer .designer-item {
+    width: 500px;
+    flex-direction: column;
+    gap: 100px;
+  }
+  section .feedback {
+    width: 576px;
+    margin-top: 200px;
+  }
+  section .feedback h1 {
+    font-size: 44px;
+  }
+  section .feedback .feedback-item {
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 109px;
+  }
+  section .feedback .cursor {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 193px;
+  }
 }/*# sourceMappingURL=mediamain.css.map */
