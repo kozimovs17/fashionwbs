@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Playfair:wght@300&family=Poppins&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+footer {
+    width: 1728px;
+    height: 599px;
+    flex-shrink: 0;
+    background: #224F34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-frame {
+        width: 1377px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 80px;
+
+        .footer-item1 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 44px;
+
+            .footer-info1 {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 26px;
+
+                p {
+                    color: #FFF;
+                    font-family: 'Roboto Slab';
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 36px;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-item2 {
+            width: 93px;
+            height: 228px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            h1 {
+                color: #FFF;
+                font-family: Roboto Slab;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #C2EFD4;
+                    font-family: 'Poppins';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .footer-item3 {
+            width: 487px;
+            height: 124px;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 38px;
+
+            h1 {
+                color: #FFF;
+                font-family: 'Roboto Slab';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+
+            }
+
+            .footer-info2 {
+                width: 487px;
+                display: flex;
+                gap: 0;
+
+                .email {
+                    width: 372px;
+                    height: 57px;
+                    flex-shrink: 0;
+                    border-radius: 3px;
+                    border: 2px solid #A3F3BE;
+                    color: #FFF;
+                    font-family: 'Poppins';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    background-color: transparent;
+                }
+
+                .submit {
+                    width: 115px;
+                    height: 57px;
+                    flex-shrink: 0;
+                    background: #A3F3BE;
+                    color: #224F34;
+                    font-family: 'Poppins';
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .footer-frame2 {
+        width: 1377px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 154px;
+
+        li {
+            list-style: none;
+
+            a {
+                color: #FFF;
+                font-family:' Poppins';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: capitalize;
+                text-decoration: none;
+            }
+        }
+
+    }
+}
