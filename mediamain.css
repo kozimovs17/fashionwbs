@@ -122,119 +122,50 @@
   }
   section .products {
     width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 330px;
+    margin-top: 230px;
   }
   section .products h1 {
-    color: #224F34;
-    font-family: "Roboto Slab";
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-size: 44px;
   }
   section .products .products-nav {
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    margin-top: 70px;
+    gap: 20px;
+    margin-top: 50px;
   }
   section .products .products-nav li {
     list-style: none;
   }
   section .products .products-nav li a {
-    text-decoration: none;
-    color: #454545;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-    position: relative;
-    transition: 0.5s;
-  }
-  section .products .products-nav li a::before {
-    content: "";
-    position: absolute;
-    height: 2.5px;
-    bottom: -5px;
-    width: 0;
-    border-radius: 50px;
-    background: #224F34;
-    transition: 0.5s;
-  }
-  section .products .products-nav li a:hover::before {
-    width: 100%;
+    font-size: 15px;
   }
   section .products .products-sell {
     width: 100%;
-    height: 1060px;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
-    margin-top: 83px;
-  }
-  section .products .products-sell .frame3 {
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
+    gap: 50px;
+    margin-top: 75px;
   }
-  section .products .products-sell .frame3 .rasm {
-    width: 318px;
-    height: 378px;
-    flex-shrink: 0;
-    background: lightgray -0.341px -5px/100.239% 113.228% no-repeat;
-    box-shadow: 10px 30px 42px 0px rgba(0, 0, 0, 0.15);
-  }
-  section .products .products-sell .frame3 .rasm2 {
-    background-color: #D3E2D7;
-  }
-  section .products .products-sell .frame3 .products-info {
+  section .offer {
+    width: 576px;
+    height: auto;
+    margin-top: 195px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column-reverse;
   }
-  section .products .products-sell .frame3 .products-info h3 {
-    color: #373737;
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  section .offer .rasm3 {
+    left: 31px;
   }
-  section .products .products-sell .frame3 .products-info .item4 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 38px;
+  section .offer .offer-info {
+    width: 500px;
+    height: auto;
+    gap: 30px;
   }
-  section .products .products-sell .frame3 .products-info .item4 p {
-    color: #454545;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  section .offer .offer-info h1 {
+    font-size: 44px;
   }
-  section .products .products-sell .frame3 .products-info .item4 .frame4 {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-  }
-  section .products .products-sell .frame3 .products-info .item4 .frame4 p {
-    color: #454545;
-    font-family: "Poppins";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  section .products .products-sell .frame3 .products-info .item4 .frame4 img {
-    background-color: transparent;
+  section .offer .offer-info p {
+    font-size: 15px;
+    width: 500px;
   }
 }/*# sourceMappingURL=mediamain.css.map */
