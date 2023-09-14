@@ -4,6 +4,12 @@
 
 
 @media(max-width: 676px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     header {
         width: 676px;
         height: auto;
@@ -137,6 +143,151 @@
             left: 235px;
         }
         // best-sell-finish
+
+        
+    // products
+    .products {
+        width: 600px;
+        // height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 330px;
+        // border: 1px solid red;
+
+        h1 {
+            color: #224F34;
+            font-family: 'Roboto Slab';
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .products-nav {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            margin-top: 70px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #454545;
+                    font-family: 'Poppins';
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    position: relative;
+                    transition: 0.5s;
+                }
+
+                a::before {
+                    content: '';
+                    position: absolute;
+                    height: 2.5px;
+                    bottom: -5px;
+                    width: 0;
+                    border-radius: 50px;
+                    background: #224F34;
+                    transition: 0.5s;
+                }
+
+                a:hover::before {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .products-sell {
+            width: 100%;
+            height: 1060px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto;
+            margin-top: 83px;
+
+            .frame3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 36px;
+
+                .rasm {
+                    // background: #EAEBF0;
+                    width: 318px;
+                    height: 378px;
+                    flex-shrink: 0;
+                    background: lightgray -0.341px -5px / 100.239% 113.228% no-repeat;
+                    box-shadow: 10px 30px 42px 0px rgba(0, 0, 0, 0.15);
+                }
+
+                .rasm2 {
+                    background-color: #D3E2D7;
+                }
+
+                .products-info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h3 {
+                        color: #373737;
+                        text-align: center;
+                        font-family: 'Poppins';
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+
+                    .item4 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 38px;
+
+                        p {
+                            color: #454545;
+                            font-family: 'Poppins';
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+
+                        .frame4 {
+                            display: flex;
+                            align-items: center;
+                            gap: 9px;
+
+                            p {
+                                color: #454545;
+                                font-family: 'Poppins';
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+
+                            img {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    // products-finish
+
     }
 
 
