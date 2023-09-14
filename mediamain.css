@@ -8,7 +8,7 @@
     align-items: center;
   }
   header {
-    width: 676px;
+    width: 576px;
     height: auto;
   }
   header .nav {
@@ -21,7 +21,7 @@
     height: 20px;
   }
   header .nav ul {
-    gap: 25px;
+    gap: 15px;
   }
   header .nav ul a {
     font-size: 14px;
@@ -29,13 +29,14 @@
   header .nav .nav-sign {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
   header .nav .nav-sign img {
     width: 25px;
     height: 25px;
   }
   header .nav .nav-sign button {
+    width: 100px;
     height: 25px;
     font-size: 14px;
   }
@@ -63,11 +64,17 @@
     font-size: 25px;
   }
   header .item1 .mask {
-    width: 549px;
+    width: 500px;
     margin-top: 50px;
   }
+  header .item1 .mask .rs3 {
+    position: absolute;
+    z-index: 1;
+    top: 155px;
+    right: 0;
+  }
   section {
-    width: 676px;
+    width: 576px;
     padding-top: 248px;
     border: 1px solid red;
   }
@@ -80,7 +87,7 @@
     margin-bottom: 80px;
     position: absolute;
     top: 65px;
-    right: 255px;
+    right: 155px;
   }
   section .info2 h1 {
     font-size: 44px;
@@ -89,7 +96,7 @@
     font-size: 15px;
   }
   section .sell1 {
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,10 +118,10 @@
     background-color: transparent;
     position: absolute;
     top: 2519px;
-    left: 235px;
+    left: 185px;
   }
   section .products {
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;

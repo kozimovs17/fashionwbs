@@ -11,7 +11,7 @@
         align-items: center;
     }
     header {
-        width: 676px;
+        width: 576px;
         height: auto;
     
         .nav {
@@ -24,7 +24,7 @@
             }
     
             ul {
-                gap: 25px;
+                gap: 15px;
     
                 a {
                     font-size: 14px;
@@ -35,13 +35,14 @@
             .nav-sign {
                 display: flex;
                 align-items: center;
-                gap: 30px;
+                gap: 20px;
                 img{
                     width: 25px;
                     height: 25px;
                 }
     
                 button {
+                    width: 100px;
                     height: 25px;
                     font-size: 14px;
                 }
@@ -78,8 +79,14 @@
             }
     
             .mask {
-                width: 549px;
+                width: 500px;
                 margin-top: 50px;
+                .rs3 {
+                    position: absolute;
+                    z-index: 1;
+                    top: 155px;
+                    right: 0;
+                }
     
             }
         }
@@ -87,7 +94,7 @@
     // header-finish
 
     section {
-        width: 676px;
+        width: 576px;
         padding-top: 248px;
         border: 1px solid red;
 
@@ -102,7 +109,7 @@
             // border: 1px solid red;
             position: absolute;
             top: 65px;
-            right: 255px;
+            right: 155px;
     
             h1 {
                 font-size: 44px;
@@ -114,7 +121,7 @@
         }
     
         .sell1 {
-            width: 600px;
+            width: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -140,14 +147,14 @@
             background-color: transparent;
             position: absolute;
             top: 2519px;
-            left: 235px;
+            left: 185px;
         }
         // best-sell-finish
 
         
     // products
     .products {
-        width: 600px;
+        width: 500px;
         // height: 100px;
         display: flex;
         flex-direction: column;
