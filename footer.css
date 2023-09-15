@@ -144,6 +144,11 @@ footer .footer-frame2 {
   align-items: center;
   margin-top: 154px;
 }
+footer .footer-frame2 ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
 footer .footer-frame2 li {
   list-style: none;
 }

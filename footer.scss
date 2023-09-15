@@ -129,6 +129,7 @@ footer {
                     font-weight: 400;
                     line-height: normal;
                     background-color: transparent;
+
                     &::placeholder {
                         color: #fff;
                     }
@@ -159,12 +160,18 @@ footer {
         align-items: center;
         margin-top: 154px;
 
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
         li {
             list-style: none;
 
             a {
                 color: #FFF;
-                font-family:' Poppins';
+                font-family: ' Poppins';
                 font-size: 20px;
                 font-style: normal;
                 font-weight: 600;
@@ -177,9 +184,10 @@ footer {
     }
 }
 
-@media(max-width: 676px){
-      // footer
-      footer {
+@media(max-width: 676px) {
+
+    // footer
+    footer {
         width: 576px;
         height: auto;
 
@@ -201,11 +209,12 @@ footer {
             align-items: flex-start;
             padding-left: 20px;
             margin-top: 154px;
-            img{
+
+            img {
                 width: 487px;
             }
 
-            ul{
+            ul {
                 display: flex;
                 align-items: center;
                 gap: 25px;
