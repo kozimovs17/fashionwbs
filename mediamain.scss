@@ -123,6 +123,7 @@
         width: 100%;
         padding-top: 248px;
         // border: 1px solid red;
+        .best-sell{
 
 
         .info2 {
@@ -133,9 +134,9 @@
             gap: 37px;
             margin-bottom: 80px;
             // border: 1px solid red;
-            position: absolute;
-            top: 65px;
-            right: 130px;
+            // position: absolute;
+            // top: 65px;
+            // right: 130px;
 
             h1 {
                 font-size: 40px;
@@ -185,10 +186,11 @@
             font-weight: 500;
             line-height: normal;
             background-color: transparent;
-            position: absolute;
-            top: 2119px;
-            left: 185px;
+            // position: absolute;
+            // top: 2119px;
+            // left: 185px;
         }
+    }
 
         // best-sell-finish
 
@@ -242,6 +244,9 @@
             margin-top: 195px;
             display: flex;
             flex-direction: column-reverse;
+            .rs6{
+                width: 350px;
+                position: relative;
 
             .rasm4 {
                 width: 350px;
@@ -250,9 +255,10 @@
 
             .rasm3 {
                 width: 80px;
-                left: 81px;
+                left: -8px;
 
             }
+        }
 
             .offer-info {
                 width: 350px;

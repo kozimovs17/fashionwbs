@@ -92,42 +92,39 @@
     width: 100%;
     padding-top: 248px;
   }
-  section .info2 {
+  section .best-sell .info2 {
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 37px;
     margin-bottom: 80px;
-    position: absolute;
-    top: 65px;
-    right: 130px;
   }
-  section .info2 h1 {
+  section .best-sell .info2 h1 {
     font-size: 40px;
   }
-  section .info2 p {
+  section .best-sell .info2 p {
     font-size: 15px;
     text-align: center;
   }
-  section .sell1 {
+  section .best-sell .sell1 {
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
   }
-  section .sell1 .frame2 {
+  section .best-sell .sell1 .frame2 {
     width: 350px;
   }
-  section .sell1 .frame2 img {
+  section .best-sell .sell1 .frame2 img {
     width: 350px;
     height: 450px;
   }
-  section .sell1 .frame2 .sell1-info {
+  section .best-sell .sell1 .frame2 .sell1-info {
     width: 350px;
   }
-  section .sell-btn {
+  section .best-sell .sell-btn {
     display: flex;
     padding: 10px 55px;
     align-items: center;
@@ -141,9 +138,6 @@
     font-weight: 500;
     line-height: normal;
     background-color: transparent;
-    position: absolute;
-    top: 2119px;
-    left: 185px;
   }
   section .products {
     width: 350px;
@@ -178,13 +172,17 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  section .offer .rasm4 {
+  section .offer .rs6 {
+    width: 350px;
+    position: relative;
+  }
+  section .offer .rs6 .rasm4 {
     width: 350px;
     height: 450px;
   }
-  section .offer .rasm3 {
+  section .offer .rs6 .rasm3 {
     width: 80px;
-    left: 81px;
+    left: -8px;
   }
   section .offer .offer-info {
     width: 350px;
