@@ -165,34 +165,53 @@ footer .footer-frame2 li a {
 
 @media (max-width: 676px) {
   footer {
-    width: 576px;
+    width: 100%;
     height: auto;
   }
   footer .footer-frame {
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
     gap: 100px;
     padding-top: 60px;
+    border: 1px solid red;
+  }
+  footer .footer-frame .footer-item3 {
+    width: 350px;
+  }
+  footer .footer-frame .footer-item3 .footer-info2 {
+    width: 350px;
+    display: flex;
+    gap: 0;
+  }
+  footer .footer-frame .footer-item3 .footer-info2 .email {
+    width: 300px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  footer .footer-frame .footer-item3 .footer-info2 .submit {
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
   }
   footer .footer-frame2 {
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    padding-left: 20px;
     margin-top: 154px;
   }
   footer .footer-frame2 img {
-    width: 487px;
+    width: 350px;
   }
   footer .footer-frame2 ul {
+    width: 350px;
     display: flex;
     align-items: center;
-    gap: 25px;
+    justify-content: space-between;
   }
   footer .footer-frame2 li {
     list-style: none;
@@ -200,7 +219,7 @@ footer .footer-frame2 li a {
   footer .footer-frame2 li a {
     color: #FFF;
     font-family: " Poppins";
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

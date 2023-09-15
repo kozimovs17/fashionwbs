@@ -317,35 +317,39 @@
                 width: 350px;
                 flex-direction: column;
                 gap: 100px;
-                border: 1px solid red;
+                // border: 1px solid red;
 
                 img {
                     width: 350px;
                     height: 450px;
                 }
 
-                .designer-frame {
+                .designer-info {
                     width: 350px;
 
-                    h3 {
-                        color: #373737;
-                        text-align: center;
-                        font-family: 'Poppins';
-                        font-size: 30px;
-                        font-style: normal;
-                        font-weight: 600;
-                        line-height: normal;
-                    }
-
-                    span {
+                    .designer-frame {
                         width: 350px;
-                        color: #373737;
-                        text-align: center;
-                        font-family: 'Poppins';
-                        font-size: 15px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 143%;
+
+                        h3 {
+                            color: #373737;
+                            text-align: center;
+                            font-family: 'Poppins';
+                            font-size: 30px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                        }
+
+                        span {
+                            width: 350px;
+                            color: #373737;
+                            text-align: center;
+                            font-family: 'Poppins';
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 143%;
+                        }
                     }
                 }
             }
@@ -410,11 +414,12 @@
                 gap: 0px;
                 margin-bottom: 193px;
 
-                .rs4{
+                .rs4 {
                     // width: 50px;
                     transform: rotate(90deg);
                 }
-                .rs5{
+
+                .rs5 {
                     transform: rotate(90deg);
                 }
             }

@@ -231,16 +231,18 @@
     width: 350px;
     flex-direction: column;
     gap: 100px;
-    border: 1px solid red;
   }
   section .designer .designer-item img {
     width: 350px;
     height: 450px;
   }
-  section .designer .designer-item .designer-frame {
+  section .designer .designer-item .designer-info {
     width: 350px;
   }
-  section .designer .designer-item .designer-frame h3 {
+  section .designer .designer-item .designer-info .designer-frame {
+    width: 350px;
+  }
+  section .designer .designer-item .designer-info .designer-frame h3 {
     color: #373737;
     text-align: center;
     font-family: "Poppins";
@@ -249,7 +251,7 @@
     font-weight: 600;
     line-height: normal;
   }
-  section .designer .designer-item .designer-frame span {
+  section .designer .designer-item .designer-info .designer-frame span {
     width: 350px;
     color: #373737;
     text-align: center;
