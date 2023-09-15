@@ -89,11 +89,11 @@
     left: 10px;
   }
   section {
-    width: 576px;
+    width: 100%;
     padding-top: 248px;
   }
   section .info2 {
-    width: 250px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,20 +101,31 @@
     margin-bottom: 80px;
     position: absolute;
     top: 65px;
-    right: 155px;
+    right: 130px;
   }
   section .info2 h1 {
-    font-size: 44px;
+    font-size: 40px;
   }
   section .info2 p {
     font-size: 15px;
+    text-align: center;
   }
   section .sell1 {
-    width: 500px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
+  }
+  section .sell1 .frame2 {
+    width: 350px;
+  }
+  section .sell1 .frame2 img {
+    width: 350px;
+    height: 450px;
+  }
+  section .sell1 .frame2 .sell1-info {
+    width: 350px;
   }
   section .sell-btn {
     display: flex;
@@ -131,11 +142,11 @@
     line-height: normal;
     background-color: transparent;
     position: absolute;
-    top: 2519px;
+    top: 2119px;
     left: 185px;
   }
   section .products {
-    width: 500px;
+    width: 350px;
     margin-top: 230px;
   }
   section .products h1 {
@@ -161,53 +172,102 @@
     margin-top: 75px;
   }
   section .offer {
-    width: 576px;
+    width: 100%;
     height: auto;
     margin-top: 195px;
     display: flex;
     flex-direction: column-reverse;
   }
+  section .offer .rasm4 {
+    width: 350px;
+    height: 450px;
+  }
   section .offer .rasm3 {
-    left: 31px;
+    width: 80px;
+    left: 81px;
   }
   section .offer .offer-info {
-    width: 500px;
+    width: 350px;
     height: auto;
     gap: 30px;
   }
   section .offer .offer-info h1 {
-    font-size: 44px;
+    font-size: 40px;
   }
   section .offer .offer-info p {
     font-size: 15px;
-    width: 500px;
+    width: 350px;
+  }
+  section .offer .offer-info .offer-item {
+    width: 350px;
+    gap: 47px;
+  }
+  section .offer .offer-info .offer-item .data {
+    width: 80px;
+    height: 80px;
+  }
+  section .offer .offer-info .offer-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
   }
   section .designer {
-    width: 576px;
+    width: 100%;
   }
   section .designer h1 {
-    font-size: 44px;
+    width: 350px;
+    font-size: 40px;
     margin-top: 200px;
+    font-weight: 500;
+    text-align: center;
   }
   section .designer P {
+    width: 350px;
     font-size: 15px;
     margin-top: 30px;
     text-align: center;
   }
   section .designer .designer-item {
-    width: 500px;
+    width: 350px;
     flex-direction: column;
     gap: 100px;
+    border: 1px solid red;
+  }
+  section .designer .designer-item img {
+    width: 350px;
+    height: 450px;
+  }
+  section .designer .designer-item .designer-frame {
+    width: 350px;
+  }
+  section .designer .designer-item .designer-frame h3 {
+    color: #373737;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  section .designer .designer-item .designer-frame span {
+    width: 350px;
+    color: #373737;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
   }
   section .feedback {
-    width: 576px;
+    width: 100% px;
     margin-top: 200px;
   }
   section .feedback h1 {
-    font-size: 44px;
+    font-size: 40px;
   }
   section .feedback .feedback-item {
-    width: 576px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -215,11 +275,40 @@
     justify-content: space-between;
     margin-top: 109px;
   }
+  section .feedback .feedback-item .feedback-info {
+    width: 350px;
+    padding-left: 10px;
+  }
+  section .feedback .feedback-item .feedback-info p {
+    font-size: 50px;
+  }
+  section .feedback .feedback-item .feedback-info span {
+    width: 350px;
+    font-size: 15px;
+  }
+  section .feedback .feedback-item .feedback-info2 {
+    width: 350px;
+    padding-left: 10px;
+  }
+  section .feedback .feedback-item .feedback-info2 p {
+    font-size: 50px;
+  }
+  section .feedback .feedback-item .feedback-info2 span {
+    width: 350px;
+    font-size: 15px;
+  }
   section .feedback .cursor {
     margin-top: 75px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 0px;
     margin-bottom: 193px;
+  }
+  section .feedback .cursor .rs4 {
+    transform: rotate(90deg);
+  }
+  section .feedback .cursor .rs5 {
+    transform: rotate(90deg);
   }
 }/*# sourceMappingURL=mediamain.css.map */
