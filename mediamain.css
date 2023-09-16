@@ -159,7 +159,9 @@
     text-align: center;
   }
   section .products .products-nav {
-    gap: 12px;
+    width: 350px;
+    justify-content: space-between;
+    gap: 8px;
     margin-top: 50px;
   }
   section .products .products-nav li {
@@ -276,6 +278,8 @@
     margin-top: 200px;
   }
   section .feedback h1 {
+    width: 350px;
+    text-align: center;
     font-size: 35px;
   }
   section .feedback .feedback-item {

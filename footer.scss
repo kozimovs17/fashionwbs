@@ -216,8 +216,12 @@ footer {
                     }
 
                     .submit {
-                        width: 50px;
-                        height: 25px;
+                        width: 0px;
+                        height: 0px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 12.5px 20px;
                         font-size: 12px;
                     }
                 }

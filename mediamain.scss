@@ -222,7 +222,9 @@
             }
 
             .products-nav {
-                gap: 12px;
+                width: 350px;
+                justify-content: space-between;
+                gap: 8px;
                 margin-top: 50px;
 
                 li {
@@ -384,6 +386,8 @@
             margin-top: 200px;
 
             h1 {
+                width: 350px;
+                text-align: center;
                 font-size: 35px;
             }
 
